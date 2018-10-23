@@ -28865,7 +28865,26 @@
           "name": "https://filesender.surf.nl/simplesaml/module.php/saml/sp/metadata.php/default-sp"
         }
       ],
-      "disableConsent": []
+      "disableConsent": [
+        {
+          "name": "http://login.ad.surfnet.nl/adfs/services/trust",
+          "type": "no_consent",
+          "explanation:nl": "",
+          "explanation:en": ""
+        },
+        {
+          "name": "https://attribute-viewer.aai.switch.ch/shibboleth",
+          "type": "minimal_consent",
+          "explanation:nl": "Explanation NL",
+          "explanation:en": "Explanation EN"
+        },
+        {
+          "name": "https://manage.surfconext.nl/shibboleth",
+          "type": "default_consent",
+          "explanation:nl": "Explanation NL",
+          "explanation:en": "Explanation EN"
+        }
+      ]
     }
   },
   {
