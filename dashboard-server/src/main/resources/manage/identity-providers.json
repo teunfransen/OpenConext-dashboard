@@ -28863,6 +28863,9 @@
         },
         {
           "name": "https://filesender.surf.nl/simplesaml/module.php/saml/sp/metadata.php/default-sp"
+        },
+        {
+          "name": "https://sp.corpus1.mpi.nl"
         }
       ],
       "disableConsent": [
