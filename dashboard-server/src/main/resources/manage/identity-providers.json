@@ -28438,7 +28438,7 @@
         "OrganizationDisplayName:nl": "SURFnet bv",
         "contacts:3:contactType": "support",
         "SingleSignOnService:0:Location": "https://idp.surfnet.nl/saml2/idp/SSOService.php",
-        "coin:entity_categories:1": "http://refeds.org/category/research-and-scholarship"
+        "coin:entity_categories:5": "http://refeds.org/category/research-and-scholarship"
       },
       "allowedEntities": [
         {
@@ -31910,7 +31910,7 @@
       "eid": 2929,
       "entityid": "https://idp.sans-ec.nl",
       "revisionid": 27,
-      "state": "prodaccepted",
+      "state": "testaccepted",
       "type": "saml20-idp",
       "metadataurl": "https://idp.sans-ec.nl/saml2/idp/metadata.php",
       "allowedall": false,
