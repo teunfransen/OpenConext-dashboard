@@ -40094,7 +40094,7 @@
       "eid": 6169,
       "entityid": "https://dh.idp.knaw.nl/simplesaml/saml2/idp/metadata.php",
       "revisionid": 9,
-      "state": "prodaccepted",
+      "state": "testaccepted",
       "type": "saml20-idp",
       "metadataurl": "https://dh.idp.knaw.nl/simplesaml/saml2/idp/metadata.php",
       "allowedall": false,
