@@ -14,6 +14,20 @@
       "entityid": "https://sso.eur.nl/opensso",
       "revisionid": 152,
       "state": "prodaccepted",
+      "stepupEntities": [
+        {
+          "name": "https://www.refworks.com/shibboleth/sp",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        },
+        {
+          "name": "https://data.3tu.nl/saml/metadata",
+          "level": "http://test2.surfconext.nl/assurance/loa3"
+        },
+        {
+          "name": "https://muse.jhu.edu/shibboleth",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        }
+      ],
       "type": "saml20-idp",
       "metadataurl": "https://sso.eur.nl/opensso/saml2/jsp/exportmetadata.jsp?realm=Erasmus",
       "allowedall": false,
@@ -28398,6 +28412,32 @@
       "revisionnote": "Added the following connections through script: SURFfilesender (nieuw) | SURF",
       "active": true,
       "notes": null,
+      "stepupEntities": [
+        {
+          "name": "https://www.refworks.com/shibboleth/sp",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        },
+        {
+          "name": "https://data.3tu.nl/saml/metadata",
+          "level": "http://test2.surfconext.nl/assurance/loa3"
+        },
+        {
+          "name": "https://muse.jhu.edu/shibboleth",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        },
+        {
+          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        },
+        {
+          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        },
+        {
+          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
+          "level": "http://test2.surfconext.nl/assurance/loa2"
+        }
+      ],
       "metaDataFields": {
         "displayName:nl": "SURFnet bv displayName NL",
         "coin:institution_id": "SURFNET",
