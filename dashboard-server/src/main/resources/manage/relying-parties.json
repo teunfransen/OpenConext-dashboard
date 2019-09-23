@@ -1,0 +1,697 @@
+[
+  {
+    "_id": "8fdd01a9-57e3-4f4d-ba66-f3f55700685a",
+    "version": 29,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 29,
+      "created": 1562231716722,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "entityid": "playground_client",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "Playground Client",
+        "secret": "$2a$10$KDkFwwFy72EaSYwB6dfXNunG438w/FTEFXE30H2rHBn.W2mZmadsO",
+        "redirectUrls": [
+          "http://localhost:3000/redirect",
+          "https://oidc-playground.test2.surfconext.nl/redirect",
+          "http://localhost:3000/oidc/api/redirect",
+          "https://oidc-playground.test2.surfconext.nl/oidc/api/redirect",
+          "https://oidctest.vm.openconext.org/test/redirect"
+        ],
+        "scopes": [
+          "groups",
+          "openid"
+        ],
+        "grants": [
+          "authorization_code",
+          "implicit",
+          "refresh_token",
+          "client_credentials"
+        ],
+        "accessTokenValidity": 7200,
+        "refreshTokenValidity": 7200,
+        "isResourceServer": true,
+        "isPublicClient": true,
+        "oidc:signingCertificateUrl": "https://oidc-playground.test2.surfconext.nl/oidc/api/certs",
+        "description:en": "Playground client - do not edit please",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:0": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:1": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "NameIDFormats:2": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"
+      },
+      "allowedEntities": [],
+      "revisionnote": "Public client",
+      "eid": 24541,
+      "discoveryurl": "https://discovery",
+      "allowedResourceServers": [
+        {
+          "name": "resource-server-playground-client"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "9319b35c-7b46-47a0-be3d-fb7102b0a24b",
+    "version": 35,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 34,
+      "created": 1569134112476,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "entityid": "testbart",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "barttest",
+        "secret": "$2a$10$OLc4RP4750J8M6Vy14OjAebljtKI/0Wc3ejowO4L9zjxhckunTRtG",
+        "redirectUrls": [
+          "https://oidctest.vm.openconext.org/test/redirect",
+          "https://oidc-playground.test2.surfconext.nl/redirect"
+        ],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "authorization_code",
+          "implicit"
+        ],
+        "isResourceServer": true,
+        "accessTokenValidity": 252000,
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"
+      },
+      "allowedEntities": [],
+      "revisionnote": "tst",
+      "eid": 24549,
+      "allowedResourceServers": [
+        {
+          "name": "resourceservertest"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "005bfe9f-2010-46f9-964d-44addef92716",
+    "version": 4,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 4,
+      "created": 1559046077866,
+      "updatedBy": "urn:collab:person:surfnet.nl:geesink"
+    },
+    "data": {
+      "entityid": "testart",
+      "state": "testaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "testbart",
+        "secret": "$2a$10$K8mpcY7bqgcyQ4l.5viAWez65PDO4n7K3Lj7wXtmvtpkswdM2NhFW",
+        "redirectUrls": [
+          "https://www.nu.nl"
+        ],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "client_credentials"
+        ],
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "isResourceServer": false
+      },
+      "allowedEntities": [],
+      "allowedResourceServers": [],
+      "revisionnote": "123",
+      "eid": 24557
+    }
+  },
+  {
+    "_id": "43431912-e095-489e-b846-de8c9b852062",
+    "version": 3,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 3,
+      "created": 1559133280290,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "entityid": "resourceservertest",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "testbart",
+        "secret": "$2a$10$7RsOeUMl7Q75D4nDPvmtIuMpM1Dl2LM5qgh.lVByY8i0bSMmFMOzy",
+        "redirectUrls": [
+          "https://www.nu.nl"
+        ],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "authorization_code"
+        ],
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "isResourceServer": true
+      },
+      "allowedEntities": [],
+      "allowedResourceServers": [
+        {
+          "name": "testbart"
+        }
+      ],
+      "revisionnote": "123",
+      "eid": 24558
+    }
+  },
+  {
+    "_id": "3af5d577-ad2d-4ab4-a112-23adbc528fb4",
+    "version": 1,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 1,
+      "created": 1562841179988,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "entityid": "resource-server-playground-client",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "resource-server-playground-client",
+        "secret": "$2a$10$ExyI5stqKuLLs2J3oBYD/uJej3.t6RSD3nj9ki7cfcL2B6rlOX9DS",
+        "redirectUrls": [],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "client_credentials"
+        ],
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "isResourceServer": true
+      },
+      "allowedEntities": [],
+      "allowedResourceServers": [],
+      "revisionnote": "tst",
+      "eid": 24559
+    }
+  },
+  {
+    "_id": "bd141b96-d493-47ac-9bcb-2215f9330fb2",
+    "version": 3,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 3,
+      "created": 1563616782019,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "Playground Client No Implicit",
+        "secret": "$2a$10$KDkFwwFy72EaSYwB6dfXNunG438w/FTEFXE30H2rHBn.W2mZmadsO",
+        "redirectUrls": [
+          "http://localhost:3000/redirect",
+          "https://oidc-playground.test2.surfconext.nl/redirect",
+          "http://localhost:3000/oidc/api/redirect",
+          "https://oidc-playground.test2.surfconext.nl/oidc/api/redirect",
+          "https://oidctest.vm.openconext.org/test/redirect"
+        ],
+        "scopes": [
+          "groups",
+          "openid"
+        ],
+        "grants": [
+          "authorization_code"
+        ],
+        "accessTokenValidity": 7200,
+        "refreshTokenValidity": 7200,
+        "isResourceServer": true,
+        "isPublicClient": true,
+        "oidc:signingCertificateUrl": "https://oidc-playground.test2.surfconext.nl/oidc/api/certs",
+        "description:en": "Playground client - do not edit please",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:0": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:1": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "NameIDFormats:2": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"
+      },
+      "allowedEntities": [],
+      "discoveryurl": "https://discovery",
+      "allowedResourceServers": [
+        {
+          "name": "resource-server-playground-client"
+        }
+      ],
+      "entityid": "playground-grant-test",
+      "revisionnote": "no implicit",
+      "eid": 24566
+    }
+  },
+  {
+    "_id": "8adebc68-2ad0-43be-9baf-90fbc7e06ca5",
+    "version": 0,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 0,
+      "created": 1560521379128,
+      "updatedBy": "urn:collab:person:example.com:ADMIN"
+    },
+    "data": {
+      "entityid": "kibana.test2.surfconext.nl",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "attributes": {
+          "urn:mace:dir:attribute-def:displayName": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:uid": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:eduPersonTargetedID": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:eduPersonAffiliation": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:cn": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:sn": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ],
+          "urn:mace:dir:attribute-def:mail": [
+            {
+              "source": "idp",
+              "value": "*"
+            }
+          ]
+        },
+        "enabled": true
+      },
+      "metaDataFields": {
+        "name:en": "Kibana test2",
+        "secret": "$2a$10$Q7x4ClwxQYao0ChWvxrAbuolwU8n2F1wIpWBv566IbB7sR5sVHNoW",
+        "redirectUrls": [
+          "https://kibana.test2.surfconext.nl/redirect"
+        ],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "authorization_code"
+        ],
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "isResourceServer": false
+      },
+      "allowedEntities": [],
+      "allowedResourceServers": [
+        {
+          "name": "resource-server-playground-client"
+        }
+      ],
+      "revisionnote": "Initial commit",
+      "eid": 24570
+    }
+  },
+  {
+    "_id": "da5d1c6b-a329-4447-ab90-22e418b98483",
+    "version": 2,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 2,
+      "created": 1563199459242,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "EDUID demo",
+        "secret": "$2a$10$0htabz/U2lQRH/dWqODRrek1/BsUn48dwx6OOklbCRjNJDzwVUNYa",
+        "redirectUrls": [
+          "https://eduid.demo.eduid.nl/portal/surfconext_callback_connect",
+          "http://eduid.localhost:8080/portal/surfconext_callback_connect"
+        ],
+        "scopes": [
+          "openid"
+        ],
+        "grants": [
+          "authorization_code",
+          "implicit",
+          "refresh_token",
+          "client_credentials"
+        ],
+        "accessTokenValidity": 7200,
+        "refreshTokenValidity": 7200,
+        "isResourceServer": true,
+        "isPublicClient": true,
+        "description:en": "EDUID demo",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "NameIDFormats:0": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:1": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "NameIDFormats:2": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"
+      },
+      "allowedEntities": [],
+      "discoveryurl": "https://discovery",
+      "allowedResourceServers": [
+        {
+          "name": "resource-server-playground-client"
+        }
+      ],
+      "entityid": "eduid.demo.eduid.nl",
+      "revisionnote": "Secret reset",
+      "eid": 24574
+    }
+  },
+  {
+    "_id": "2e805b4c-dc27-4b8e-bc43-e3a09f34cd01",
+    "version": 0,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 0,
+      "created": 1562252037903,
+      "updatedBy": "urn:collab:person:example.com:admin"
+    },
+    "data": {
+      "entityid": "delme",
+      "state": "prodaccepted",
+      "allowedall": true,
+      "arp": {
+        "enabled": false,
+        "attributes": {}
+      },
+      "metaDataFields": {
+        "name:en": "Playground Client",
+        "secret": "$2a$10$KDkFwwFy72EaSYwB6dfXNunG438w/FTEFXE30H2rHBn.W2mZmadsO",
+        "redirectUrls": [
+          "http://localhost:3000/redirect",
+          "https://oidc-playground.test2.surfconext.nl/redirect",
+          "http://localhost:3000/oidc/api/redirect",
+          "https://oidc-playground.test2.surfconext.nl/oidc/api/redirect",
+          "https://oidctest.vm.openconext.org/test/redirect"
+        ],
+        "scopes": [
+          "groups",
+          "openid"
+        ],
+        "grants": [
+          "authorization_code",
+          "implicit",
+          "refresh_token",
+          "client_credentials"
+        ],
+        "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "isResourceServer": true,
+        "NameIDFormats:1": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "NameIDFormats:0": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "NameIDFormats:2": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "description:en": "Playground client - do not edit please",
+        "accessTokenValidity": 7200,
+        "refreshTokenValidity": 7200,
+        "isPublicClient": true,
+        "oidc:signingCertificateUrl": "https://oidc-playground.test2.surfconext.nl/oidc/api/certs"
+      },
+      "allowedEntities": [],
+      "allowedResourceServers": [],
+      "discoveryurl": "https://discovery",
+      "type": "oidc10-rp",
+      "revisionnote": "tst",
+      "eid": 24576
+    }
+  },
+  {
+    "_id": "ec49c751-8b14-4250-89e2-6578dc12d6a8",
+    "version": 6,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 6,
+      "created": 1567081979805,
+      "updatedBy": "sp-dashboard"
+    },
+    "data": {
+      "arp": {
+        "attributes": {
+          "urn:mace:dir:attribute-def:givenName": [
+            {
+              "source": "idp",
+              "value": "*",
+              "motivation": "123"
+            }
+          ],
+          "urn:mace:dir:attribute-def:eduPersonTargetedID": [
+            {
+              "source": "idp",
+              "value": "*",
+              "motivation": "OIDC requires EduPersonTargetedID by default"
+            }
+          ]
+        },
+        "enabled": true
+      },
+      "type": "oidc10-rp",
+      "entityid": "1234.nl",
+      "active": true,
+      "state": "prodaccepted",
+      "metaDataFields": {
+        "description:en": "tst",
+        "description:nl": "test",
+        "name:en": "TEST",
+        "name:nl": "Testoidcng",
+        "contacts:0:contactType": "technical",
+        "contacts:0:givenName": "Bart",
+        "contacts:0:surName": "Geesik",
+        "contacts:0:emailAddress": "bart.geesink@surfnet.nl",
+        "coin:service_team_id": "urn:collab:group:test.surfteams.nl:nl:surfnet:diensten:testbart2334343",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "scopes": [
+          "openid"
+        ],
+        "secret": "$2a$10$mOWal5xmC6ssu1nXv3653ulEN3GEu4EVxXFlEZFOhf2ilydqtzyH2",
+        "redirectUrls": [
+          "https://www.nu.nl",
+          "https://authz-playground.test2.surfconext.nl/redirect",
+          "https://oidc-playground.test2.surfconext.nl/redirect"
+        ],
+        "grants": [
+          "authorization_code"
+        ],
+        "accessTokenValidity": 3600,
+        "isPublicClient": false,
+        "logo:0:url": "https://static.surfconext.nl/logos/sp/surf_network-automation.png",
+        "logo:0:width": 200,
+        "logo:0:height": 160
+      },
+      "allowedEntities": [],
+      "allowedall": true,
+      "eid": 24593,
+      "revisionnote": "red"
+    }
+  },
+  {
+    "_id": "851ab88a-4b97-4698-bfa5-2986cb31fed1",
+    "version": 0,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 0,
+      "created": 1567414513590,
+      "updatedBy": "sp-dashboard"
+    },
+    "data": {
+      "arp": {
+        "attributes": {
+          "urn:mace:dir:attribute-def:cn": [
+            {
+              "source": "idp",
+              "value": "*",
+              "motivation": "Test fdsafdsa"
+            }
+          ],
+          "urn:mace:dir:attribute-def:eduPersonTargetedID": [
+            {
+              "source": "idp",
+              "value": "*",
+              "motivation": "OIDC requires EduPersonTargetedID by default"
+            }
+          ]
+        },
+        "enabled": true
+      },
+      "type": "oidc10-rp",
+      "entityid": "super-sp.com",
+      "active": true,
+      "state": "prodaccepted",
+      "metaDataFields": {
+        "description:en": "Super SP",
+        "description:nl": "Super SP",
+        "name:en": "Super SP",
+        "name:nl": "Super SP",
+        "contacts:0:contactType": "support",
+        "contacts:0:givenName": "Test",
+        "contacts:0:surName": "Test",
+        "contacts:0:emailAddress": "test@test.com",
+        "contacts:1:contactType": "administrative",
+        "contacts:1:givenName": "Test",
+        "contacts:1:surName": "Test",
+        "contacts:1:emailAddress": "test@test.com",
+        "contacts:2:contactType": "technical",
+        "contacts:2:givenName": "Test",
+        "contacts:2:surName": "Test",
+        "contacts:2:emailAddress": "test@test.com",
+        "coin:service_team_id": "team-ibuildings",
+        "coin:application_url": "https://super-sp.com",
+        "coin:eula": "https://super-sp.com/eula",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "scopes": [
+          "openid"
+        ],
+        "secret": "$2a$10$eycI0BNthc0c6jdGq5d.per/SSBoQHRlf00XVh4aPwKQ4SDoVWEKO",
+        "redirectUrls": [
+          "https://super-sp.com",
+          "https://super-sp.com/redirect"
+        ],
+        "grants": [
+          "authorization_code"
+        ],
+        "accessTokenValidity": 5340,
+        "isPublicClient": true,
+        "logo:0:url": "https://spdashboard.test2.surfconext.nl/images/surfconext-logo.png",
+        "logo:0:width": 322,
+        "logo:0:height": 100
+      },
+      "allowedEntities": [],
+      "allowedall": true,
+      "revisionnote": "fdsfdsafdsad safdsfdsafdsafdsasdsafdsfdsa",
+      "eid": 24597
+    }
+  },
+  {
+    "_id": "2798f42a-cd02-4314-a7ca-dce9fc6504b4",
+    "version": 0,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 0,
+      "created": 1567414795159,
+      "updatedBy": "sp-dashboard"
+    },
+    "data": {
+      "type": "oidc10-rp",
+      "entityid": "super-sp-rs.com",
+      "active": true,
+      "state": "prodaccepted",
+      "metaDataFields": {
+        "description:en": "test",
+        "description:nl": "test",
+        "name:en": "test",
+        "name:nl": "test",
+        "contacts:0:contactType": "technical",
+        "contacts:0:givenName": "test",
+        "contacts:0:surName": "test",
+        "contacts:0:emailAddress": "test@test.nl",
+        "coin:service_team_id": "team-ibuildings",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "scopes": [
+          "openid"
+        ],
+        "secret": "$2a$10$tuhBXNA/P1Vnjxt9ScaFxu2pkc7bAKJkf99ANogbTx81LdGM2W7Q6",
+        "grants": [
+          "client_credentials"
+        ],
+        "isResourceServer": true
+      },
+      "allowedEntities": [],
+      "allowedall": true,
+      "revisionnote": "Foobar",
+      "eid": 24598
+    }
+  },
+  {
+    "_id": "98dc7e13-824d-44fd-ae58-8c49510d5550",
+    "version": 0,
+    "type": "oidc10_rp",
+    "revision": {
+      "number": 0,
+      "created": 1568899479137,
+      "updatedBy": "sp-dashboard"
+    },
+    "data": {
+      "type": "oidc10-rp",
+      "entityid": "1234aaa.nl",
+      "active": true,
+      "state": "prodaccepted",
+      "metaDataFields": {
+        "description:en": "dffsdf",
+        "description:nl": "rererew",
+        "name:en": "tertert",
+        "name:nl": "Testoidc",
+        "contacts:0:contactType": "technical",
+        "contacts:0:givenName": "Bart",
+        "contacts:0:surName": "Geesik",
+        "contacts:0:emailAddress": "Bart@bart.nl",
+        "coin:service_team_id": "urn:collab:group:test.surfteams.nl:nl:surfnet:diensten:barttest3",
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
+        "scopes": [
+          "openid"
+        ],
+        "secret": "$2a$10$zclPd1WcM3ak/pBTI.U4COgTdnHbExXeni0SfTVZg7ICtCVcSSYY.",
+        "grants": [
+          "client_credentials"
+        ],
+        "isResourceServer": true
+      },
+      "allowedEntities": [],
+      "allowedall": true,
+      "eid": 24603
+    }
+  }
+]
