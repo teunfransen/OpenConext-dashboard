@@ -28479,7 +28479,8 @@
         "OrganizationDisplayName:nl": "SURFnet bv",
         "contacts:3:contactType": "support",
         "SingleSignOnService:0:Location": "https://idp.surfnet.nl/saml2/idp/SSOService.php",
-        "coin:entity_categories:5": "http://refeds.org/category/research-and-scholarship"
+        "coin:entity_categories:5": "http://refeds.org/category/research-and-scholarship",
+        "coin:display_admin_emails_in_dashboard": true
       },
       "allowedEntities": [
         {
@@ -31951,7 +31952,7 @@
       "eid": 2929,
       "entityid": "https://idp.sans-ec.nl",
       "revisionid": 27,
-      "state": "testaccepted",
+      "state": "prodaccepted",
       "type": "saml20-idp",
       "metadataurl": "https://idp.sans-ec.nl/saml2/idp/metadata.php",
       "allowedall": false,
@@ -32159,7 +32160,8 @@
         "displayName:en": "SURF",
         "OrganizationDisplayName:nl": "SURF",
         "contacts:3:contactType": "technical",
-        "SingleSignOnService:0:Location": "https://idp.surf.nl/saml2/idp/SSOService.php"
+        "SingleSignOnService:0:Location": "https://idp.surf.nl/saml2/idp/SSOService.php",
+        "coin:display_admin_emails_in_dashboard":  false
       },
       "allowedEntities": [
         {
