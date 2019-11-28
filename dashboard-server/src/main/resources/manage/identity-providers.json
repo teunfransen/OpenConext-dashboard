@@ -20,12 +20,8 @@
           "level": "http://test2.surfconext.nl/assurance/loa2"
         },
         {
-          "name": "https://data.3tu.nl/saml/metadata",
-          "level": "http://test2.surfconext.nl/assurance/loa3"
-        },
-        {
           "name": "https://muse.jhu.edu/shibboleth",
-          "level": "http://test2.surfconext.nl/assurance/loa2"
+          "level": "http://test2.surfconext.nl/assurance/loa3"
         }
       ],
       "type": "saml20-idp",
@@ -28414,28 +28410,12 @@
       "notes": null,
       "stepupEntities": [
         {
-          "name": "https://www.refworks.com/shibboleth/sp",
+          "name": "https://login.ezproxy.elib49.ub.unimaas.nl/",
           "level": "http://test2.surfconext.nl/assurance/loa2"
         },
         {
-          "name": "https://data.3tu.nl/saml/metadata",
+          "name": "https://unesco.presentations2go.eu/P2G/",
           "level": "http://test2.surfconext.nl/assurance/loa3"
-        },
-        {
-          "name": "https://muse.jhu.edu/shibboleth",
-          "level": "http://test2.surfconext.nl/assurance/loa2"
-        },
-        {
-          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
-          "level": "http://test2.surfconext.nl/assurance/loa2"
-        },
-        {
-          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
-          "level": "http://test2.surfconext.nl/assurance/loa2"
-        },
-        {
-          "name": "https://bod.acc.dlp.surfnet.nl/shibboleth",
-          "level": "http://test2.surfconext.nl/assurance/loa2"
         }
       ],
       "metaDataFields": {
