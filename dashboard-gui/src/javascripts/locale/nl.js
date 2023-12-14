@@ -1276,7 +1276,7 @@ I18n.translations.nl = {
             'Je kunt kiezen voor <span>Generieke multi-factor (REFEDS MFA)</span>, een internationale standaard, of <span>Multi-factor op ADFS of Azure AD</span> specifiek voor Microsoft producten.',
         subtitle3:
             'Heeft je eigen IdP geen ondersteuning voor MFA, overweeg dan om SURFsecureID af te nemen.',
-        authn_context_level: 'MFA Setting',
+        authn_context_level: 'MFA variant',
         defaultAuthnContextLevel: 'Dwing geen tweede factor af bij mijn IdP voor deze dienst',
         multipleauthn: 'Multi-factor op ADFS of Azure AD',
         mfa: 'Generieke multi-factor (REFEDS MFA)',
